@@ -18,6 +18,7 @@ from time import sleep
 from datetime import datetime
 print(stylize("RedditMemesMaker",colored.fg("green")))
 
+'''
 def getchecksum():
 	path = os.path.basename(__file__)
 	if not os.path.exists(path):
@@ -36,7 +37,7 @@ keyauthapp = api(
 	version = "1.0",
 	hash_to_check = getchecksum()
 )
-
+'''
 
 key = input("Enter your licence key: ")
 keyauthapp.license(key)
